@@ -1,0 +1,354 @@
+body{
+	background-color: #454545;
+	margin: 0px;
+	margin-bottom: 0px;
+}
+
+header{
+	background-color: grey;
+	background-size: 100%;
+}
+
+img.baniere{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;  
+    width: 1000px;
+    height: 200px;
+}
+
+h1.headline{
+	text-align: center;
+	font-size : 75px;
+	color: black;
+}
+
+#menu ul{
+	margin-left: 22%;
+	padding: 0;
+	align-items: center;
+	line-height: 40px;
+}
+
+#menu li{
+	list-style: none;
+	float: left;
+	align-self: center;
+	position: relative;
+	background-color: red; 
+}
+
+#menu ul li a{
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	width: 250px;
+	height: 50px;
+	border-color: 1px solid #000000;
+	text-shadow: 1px 1px 1px grey;
+}
+
+#menu ul ul{
+	position: absolute;
+	top: 31px;
+	visibility: hidden;
+}
+
+#menu ul li:hover ul{
+	visibility: visible;
+	margin: 0px;
+}
+
+#menu li:hover{
+	background-color: white;
+}
+
+#menu ul li ul a:hover{
+	color: blue;
+	background-color: yellow;
+	transition: 0.3s all;
+}
+
+div#content div{
+	display: inline-block;
+	width: 48%;
+}
+
+div#content div.content-first p{
+	color: black;
+	background-color: grey;
+	font-size: 25px;
+	margin-left: 5%;
+	text-align: justify;
+}
+
+img.kick{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#us div{
+	display: inline-block;
+	width: 48%;
+}
+
+#us div.story p{
+	color: black;
+	background-color: grey;
+	font-size: 25px;
+	margin-left: 8%;
+	text-align: justify;
+}
+
+#us div.ste{
+	vertical-align: top;
+	margin-top: 15%;
+}
+
+img.stephane{
+	vertical-align: top;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#train div{
+	background-color: yellow;
+	margin-top: 20px; 
+	display: inline-block;
+	padding: 20px;
+	vertical-align: top;
+}
+
+#train div.ccimg{
+	margin-left: 10%;
+}
+
+#train div.cedric p{
+	margin-left: 10px; 
+	color: black;
+	background-color: grey;
+	font-size: 25px;
+	text-align: justify;
+}
+
+#train div.floimg{
+	margin-left: 3%; 
+}
+
+#train div.flo{
+	width: 49%;
+}
+
+#train div.flo p{
+	margin-left: 10px; 
+	color: black;
+	background-color: grey;
+	font-size: 25px;
+	text-align: justify;
+}
+
+#train div.moussaimg{
+	margin-left: 3%;
+}
+
+#train div.moussa{
+	width: 49%;
+}
+
+#train div.moussa p{
+	margin-left: 10px; 
+	color: black;
+	background-color: grey;
+	font-size: 25px;
+	text-align: justify;
+}
+
+#train div.pauimg{
+	margin-left: 10%;
+}
+
+#train div.pau{
+	width: 49%;
+}
+
+#train div.pau p{
+	margin-left: 10px; 
+	color: black;
+	background-color: grey;
+	font-size: 25px;
+	text-align: justify;
+}
+
+#cours div{
+	background-color: yellow;
+	margin-top: 20px; 
+	padding: 20px;
+	vertical-align: top;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#cours div.use{
+	background-color:  #454545;
+}
+
+#titre p{
+	background-color: gray;
+	font-size: 65pt;
+}
+
+#baby p{
+	margin: 5px;
+	background-color: gray;
+	text-align: justify;
+	padding: 5px;
+	width: 40%;
+	font-size: 20px;
+}
+
+#baby p.horaire{
+	font-size: 35px;
+}
+
+#petit p{
+	margin: 10px;
+	background-color: gray;
+	text-align: justify;
+	padding: 5px;
+	width: 40%;
+	font-size: 20px;
+}
+
+#petit p.horaire{
+	font-size: 35px;
+}
+
+#grand p{
+	margin: 10px;
+	background-color: gray;
+	text-align: justify;
+	padding: 5px;
+	width: 40%;
+	font-size: 20px;
+}
+
+#grand p.horaire{
+	font-size: 35px;
+}
+
+#inscription div{
+	background-color: yellow;
+	margin-top: 20px; 
+	padding: 20px;
+	vertical-align: top;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    margin-right: 5%;
+}
+
+#inscription div.instru p{
+	font-size: 25px;
+	margin: 10px;
+	background-color: gray;
+	text-align: justify;
+	padding: 5px;
+	width: 75%;
+	float: right;
+}
+
+#inscription div.fiche p{
+	font-size: 25px;
+	margin: 10px;
+	background-color: gray;
+	text-align: justify;
+	padding: 5px;
+	width: 100%;
+	float: none;
+}
+
+#lieu div{
+	background-color: yellow;
+	margin-top: 20px; 
+	padding: 20px;
+	vertical-align: top;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5%;
+}
+
+#lieu div.use{
+	background-color: #454545;
+}
+
+#lieu div.txt p{
+	font-size: 25px;
+	margin: 10px;
+	background-color: gray;
+	text-align: justify;
+	padding: 5px;
+	width: 75%;
+	float: none;
+}
+
+#lieu div.plan p{
+	font-size: 25px;
+	margin: 10px;
+	background-color: gray;
+	text-align: justify;
+	padding: 5px;
+	width: 75%;
+}
+
+#video div{
+	background-color: yellow;
+	margin-top: 20px; 
+	padding: 20px;
+	vertical-align: top;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5%;
+}
+
+#video div.use{
+	background-color: #454545;
+}
+
+div.copyright{
+	display: inline-block;
+}
+
+div.copyright ul{
+	align-items: center;
+}
+
+div.copyright ul li{
+	list-style: none;
+	float: left;
+	margin-right: 50px;
+}
+
+div.copyright ul li a{
+	text-decoration: none;
+	text-align: center;
+	display: block;
+}
+
+footer{
+	font-size: 15px;
+	margin-bottom: 0px;
+	background-color: black;
+	color: grey;
+	text-align: center;
+	padding-bottom: 1px;
+}
